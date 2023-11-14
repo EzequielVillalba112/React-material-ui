@@ -1,7 +1,6 @@
 import {BrowserRouter as Router} from 'react-router-dom'
-import Header from './components/Header/Header'
 import Page from './components/page'
-import Typography from './components/Typography/Typography'
+import Header from './components/Header/Header'
 
 function App() {
   return (

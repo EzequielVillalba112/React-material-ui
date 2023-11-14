@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <>
         <Routes>
-            <Route path='/' element={<Header/>}/>
+            <Route path='/' element={<App/>}/>
             <Route path='/container-sx' element={<ContainerSx/>}/>
             <Route path='/typografy' element={<Typography/>}/>
         </Routes>
