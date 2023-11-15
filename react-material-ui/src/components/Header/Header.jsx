@@ -26,6 +26,10 @@ export default function Header() {
             <li>
               <Link to="/typografy" onClick={menuClick}>Typography</Link>
             </li>
+            <li>
+              <Link to="/box" onClick={menuClick}>Box</Link>
+            </li>
+            
           </ul>
         </nav>
       </div>
