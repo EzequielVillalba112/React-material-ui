@@ -4,7 +4,7 @@ import { IoMenu } from "react-icons/io5";
 import { useState } from "react";
 
 export default function Header() {
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   let menuClick = () => {
     setMenuOpen(!menuOpen);
@@ -31,6 +31,15 @@ export default function Header() {
             </li>
             <li>
               <Link to="/grid" onClick={menuClick}>Grid</Link>
+            </li>
+            <li>
+              <Link to="/practica-styled" onClick={menuClick}>Practica Styled</Link>
+            </li>
+            <li>
+              <Link to="/card" onClick={menuClick}>Card</Link>
+            </li>
+            <li>
+              <Link to="/navbar" onClick={menuClick}>Navbar</Link>
             </li>
           </ul>
         </nav>
